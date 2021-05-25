@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: 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
+          access-token: ${{ REPO_ACCESS_TOKEN }}
